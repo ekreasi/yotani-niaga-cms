@@ -67,3 +67,41 @@ label {
 	font-weight:400;
 	color:#4D4D4D
 }
+.sidebar-secondary {
+	background-color:#F47C31 !important;
+}
+.logo-dashboard {
+	height:105px;
+	background-color:#fff;
+	padding: 20px;
+	margin:auto;
+	text-align: center;
+}
+.logo-dashboard  img{
+	width: auto;
+    height: 100%;
+    margin: auto;
+}
+.navbar-background-primary {
+	background-color: #009444 !important;
+}
+.navbar-background-primary ul li a i{
+	color:#fff
+}
+.os-host-overflow-x .logo-dashboard  img {
+
+}
+.sidebar-yt ul li a.link {
+	padding-left:21px
+}
+
+.sidebar-yt ul li a p, .sidebar-yt ul li i{
+	color:#fff !important
+}
+body .sidebar-yt ul li .active {
+	background-color: #009444 !important;
+	border-left:5px solid #006830;
+	border-radius:0px !important;
+	box-shadow:none !important;
+}
+

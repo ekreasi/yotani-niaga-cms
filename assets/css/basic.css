@@ -270,6 +270,7 @@
     }
     .color-secondary {
         color:#F26327;
+        
     }
     .color-red {
         color:red
@@ -281,7 +282,7 @@
         background-color:#009444;
     }
     .background-secondary {
-        background-color:#FF8900;
+        background-color:#FF8900 !important;
     }
     .background-gray {
         background-color:#eee;
