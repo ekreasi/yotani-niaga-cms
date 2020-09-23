@@ -45,6 +45,9 @@
     .vh-100 {
         min-height: 100vh;
     }
+    .vh-80 {
+        min-height: 80vh;
+    }
 
 /* Text */
 
@@ -89,6 +92,12 @@
     .no-padding-right {
         padding-right:0px !important;
     }
+    .padding-l15 {
+        padding-left:15px;
+    }
+    .padding-r15 {
+        padding-right:15px;
+    }
     .padding-b20 {
         padding-bottom:20px;
     }
@@ -117,6 +126,12 @@
     .no-margin {
         margin:0px !important
     }
+    .margin-tb5 {
+        margin:5px auto 5px auto
+    }
+    .margin-tb8 {
+        margin:8px auto 8px auto
+    }
     .margin-tb10 {
         margin:10px auto 10px auto
     }
@@ -144,7 +159,12 @@
     .margin-b40 {
         margin-bottom:40px;
     }
-
+    .margin-l15 {
+        margin-left:15px;
+    }
+    .margin-r15 {
+        margin-right:15px;
+    }
  /*  Button  */
     .btn-primary {
         background-color: #009444 !important;
@@ -154,6 +174,11 @@
     .btn-secondary {
         background-color: #FF8900 !important;
         border-color: #FF8900 !important;
+        color:#fff !important;
+    }
+    .btn-third {
+        background-color: #FFAB40 !important;
+        border-color: #FFAB40 !important;
         color:#fff !important;
     }
     .btn-secondary-gradient {
@@ -271,6 +296,9 @@
     .color-secondary {
         color:#F26327;
         
+    }
+    .color-third {
+        color: #FFAB40 !important;
     }
     .color-red {
         color:red

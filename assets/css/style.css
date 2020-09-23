@@ -104,4 +104,31 @@ body .sidebar-yt ul li .active {
 	border-radius:0px !important;
 	box-shadow:none !important;
 }
+.logo-dashboard-wrap {
+	height: 105px;
+	background-color:#fff;
+	padding:10px 0px
+}
+.logo-dashboard {
+	width:auto;
+	height:80px;
+	background-image: url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: contain;
+    text-align: center;
+}
 
+.sidebar-collapse .logo-dashboard {
+	width:auto;
+	height:80px;
+	background-image: url(../img/img-logogram.png) !important;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: contain;
+    text-align: center;
+}
+.page-item.active .page-link {
+	background-color: #009444 !important;
+	border-color:#009444 !important;
+}
