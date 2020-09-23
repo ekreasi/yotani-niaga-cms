@@ -132,3 +132,7 @@ body .sidebar-yt ul li .active {
 	background-color: #009444 !important;
 	border-color:#009444 !important;
 }
+.btn-sort-wrap a i {
+	font-size:22px;
+	margin-right:5px;
+}
