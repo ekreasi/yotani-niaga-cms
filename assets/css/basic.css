@@ -1,4 +1,10 @@
  /* General */
+    html, body {
+        height: 100%;
+    }
+    a:hover {
+        text-decoration:none !important;
+    }
     input:focus , input, .btn:focus, .btn:hover, .btn:active , .btn:visited,  body.btn:focus, body.btn:hover, body.btn:active , body.btn:visited{
         box-shadow:none !important;
     }
@@ -36,10 +42,13 @@
         margin-inline-end: 0px;
         padding-inline-start: 0px !important;
     } */
+    .vh-100 {
+        min-height: 100vh;
+    }
 
 /* Text */
 
-    h1 {
+    /* h1 {
         font-size:22px !important;
         font-weight:bold;
     }
@@ -62,10 +71,10 @@
     h6 {
         font-size:15px !important;
         font-weight:bold;
-    }
-    p {
+    } */
+    /* p {
         font-size:15px !important; 
-    }
+    } */
     .align-center {
         text-align: center;
     }
@@ -138,14 +147,20 @@
 
  /*  Button  */
     .btn-primary {
-        background-color: #00A00C !important;
-        border-color: #00A00C !important;
+        background-color: #009444 !important;
+        border-color: #009444  !important;
         color:#fff !important;
     }
     .btn-secondary {
         background-color: #FF8900 !important;
         border-color: #FF8900 !important;
         color:#fff !important;
+    }
+    .btn-secondary-gradient {
+        background: linear-gradient(135deg, #FD763D 0%, #E35317 100%) !important;
+        border-radius: 5px;
+        color:#fff !important;
+        border:none !important
     }
     .btn-gray-line {
         background-color: #fff !important;
@@ -251,16 +266,19 @@
 /*  Color  */
 
     .color-primary {
-        color:#00A00C;
+        color:#009444;
     }
     .color-secondary {
-        color:#FF8900;
+        color:#F26327;
     }
     .color-red {
         color:red
     }
+    .color-white {
+        color:#fff
+    }
     .background-primary {
-        background-color:#00A00C;
+        background-color:#009444;
     }
     .background-secondary {
         background-color:#FF8900;
