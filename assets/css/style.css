@@ -9,11 +9,11 @@ body{
 	font-weight:400;
 	font-size:13px;
 }
-.register-link-wrap {
+.register-link-wrap, .otp-link-wrap {
 	text-align:center;
 }
 
-.login-wrap span.register-link-wrap{
+.login-wrap span.register-link-wrap, .otp-wrap span.otp-link-wrap {
 	margin:20px auto;
 	text-align: center;
 	display: block;
@@ -27,7 +27,21 @@ body{
 .forgot-wrap p, .register-wrap p {
 	font-size:20px;
 	color:#4D4D4D;
-	margin-bottom:30px !important;
+	margin-bottom:20px !important;
+}
+body .otp-wrap p {
+	font-size:20px;
+	color:#4D4D4D;
+	margin-bottom:15px !important;
+}
+.otp-wrap form .form-group .otp-input input {
+
+}
+.otp-wrap form .form-group .otp-input {
+	padding: 0px 5px;
+    display: block;
+    width: 25%;
+    float: left;
 }
 .forgot-wrap h2, .register-wrap h2 {
 	font-weight:700;
@@ -39,4 +53,17 @@ body{
 label {
 	font-weight:700 !important;
 	color:#4d4d4d !important;
+}
+.timer-wrap {
+	background-image:url(../img/img-time-otp.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+	height:300px;
+}
+.timer-wrap h1 {
+	text-align: center;
+	padding: 125px 0px;
+	font-weight:400;
+	color:#4D4D4D
 }
