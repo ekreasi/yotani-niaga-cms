@@ -13,13 +13,16 @@ body{
 	text-align:center;
 }
 
-.login-wrap span.register-wrap {
+.login-wrap span.register-link-wrap{
 	margin:20px auto;
 	text-align: center;
 	display: block;
 }
 .forgot-wrap {
 	margin-top:80px 
+}
+.register-wrap {
+	margin:120px auto;
 }
 .forgot-wrap p, .register-wrap p {
 	font-size:20px;
