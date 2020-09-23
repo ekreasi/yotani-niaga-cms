@@ -158,3 +158,44 @@ body .sidebar-yt ul li .active {
  .btn-language ul.show li a img {
 	 margin-right:10px
  }
+ .user-setting a {
+	display: flex;
+ }
+ .user-setting a img {
+	width:30px;
+	 height:30px;
+	 margin-right:10px;
+ }
+ .user-setting a span {
+	 margin-right:10px;
+ }
+ .user-setting a span h6,.user-setting a span p {
+	 margin:auto;
+	 text-align:left;
+	 font-size:12px;;
+	 color:#fff;
+ }
+ .user-setting a span p {
+	 font-weight:700;
+ }
+ .user-setting a::after{
+	top: 10px !important;
+	position: relative;
+	color:#fff
+ }
+
+ .notification-wrap a i {
+    color: #fff;
+    font-size: 21px !important;
+    top: 10px !important;
+    margin-top: 4px !important;
+}
+.notification-wrap a span.navbar-badge {
+    font-size: .6rem;
+    font-weight: 300;
+    padding: 7px 7px !important;
+    position: absolute;
+    right: 9px !important;
+    top: 9px !important;
+    border-radius: 50%;
+}

@@ -57,10 +57,10 @@
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
         <!-- Notifications Dropdown Menu -->
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown notification-wrap">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-bell"></i>
-            <span class="badge badge-warning navbar-badge">15</span>
+            <span class="badge badge-warning navbar-badge"> </span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
             <span class="dropdown-item dropdown-header">15 Notifications</span>
@@ -84,7 +84,20 @@
           </div>
         </li>
         <li class="nav-item">
-        
+          <div class="dropdown user-setting">
+            <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="img-fuid" src="assets/img/img-avatar.png">
+              <span>
+                <h6>Vivi M </h6>
+                <p>Administrator</p>
+            </span>
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Setting</a>
+              <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
