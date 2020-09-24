@@ -199,3 +199,33 @@ body .sidebar-yt ul li .active {
     top: 9px !important;
     border-radius: 50%;
 }
+.content-wrapper {
+	padding-bottom:40px;;
+}
+.btn-upload-custom input {
+	position: absolute;
+	font-size: 50px;
+	opacity: 0;
+	right: 0;
+	top: 0;
+	
+}
+.btn-upload-custom .file {
+	float:left;
+}
+.info-wrap {
+	float: left;
+    padding: 5px 6px;
+    border-radius: 40px;
+    background: #FFF3EE;
+    margin: 3px 10px;
+}
+.info-wrap i {
+	background: #F26327;
+	color:#fff;
+	border-radius: 40px;
+	padding:4px 9px;
+}
+.background-primary-gradient button span {
+	color:#FFF !important
+}

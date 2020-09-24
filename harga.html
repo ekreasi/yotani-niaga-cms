@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Yotani Niaga | Dashboard</title>
+  <title>Yotani Niaga | Harga</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">  
@@ -118,7 +118,7 @@
         <nav >
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
-              <a href="dashboard.html" class="nav-link active">
+              <a href="dashborad.html" class="nav-link link">
                 <i class="fas fa-tachometer-alt nav-icon"></i>
                 <p>
                   Dashboard
@@ -134,7 +134,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="harga.html" class="nav-link link">
+              <a href="harga.html" class="nav-link active ">
                 <i class="fas fa-tags nav-icon"></i>
                 <p>
                   Harga CPO
@@ -155,7 +155,7 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0 text-dark">Pabrik</h1>
+              <h1 class="m-0 text-dark">Harga CPO</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
              
@@ -173,7 +173,7 @@
               <div class='container-fluid'>
                 <div class="row">
                   <div class="col-md-4 no-padding">
-                    <a class="btn btn-third " href="add-pabrik.html"><i class="fa fa-plus"></i> Tambah Produk</a>
+                    <a class="btn btn-third " href="#" data-toggle="modal" data-target="#modal-tambah-harga"><i class="fa fa-plus"></i> Tambah Harga</a>
                   </div>
                   <div class="col-md-8">
                     <div class="row">
@@ -205,220 +205,100 @@
                 <thead>
                 <tr>
                   <th>No</th>
-                  <th>Nama Perusahaan</th>
-                  <th>Alamat</th>
-                  <th>Jenis Perkebunan</th>
-                  <th>Kapasitas</th>
-                  <th>NPWP</th>
-                  <th>NIB</th>
-                  <th>Website</th>
-                  <th>Jumlah Karyawan</th>
-                  <th>Nama PIC</th>
-                  <th>No HP</th>
-                  <th>Email</th>
-                  <th>Username</th>
+                  <th>Tanggal</th>
+                  <th>Harga CPO/Ton</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>2</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>3</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>4</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>5</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>6</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>7</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>8</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>9</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 <tr>
-                  <td>10</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>1</td>
+                  <td>06 Agustus 2020</td>
+                  <td>Rp 1.487,73</td>
                   <td>
                     <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <!-- <a href="#" class="color-third"><i class="fa fa-trash"></i></a> -->
                   </td>
                 </tr>
                 
@@ -442,6 +322,52 @@
   </div>
   <!-- ./wrapper -->
   
+
+
+
+    <!-- Modal Tambah Harga -->
+    <div class="modal fade" id="modal-tambah-harga" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-400 modal-dialog-centered modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header no-border background-primary-gradient">
+            <h6 class="modal-title w-100 color-white" id="exampleModalLabel">Tambah Harga CPO</h6>
+            <button type="button" class="close color-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><i class="icon ion-android-close"></i></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label >Tanggal </label>
+              <input type="text" class="form-control" placeholder="Nama Perusahaan"  />
+              <small class="form-text text-muted" ><p class="warning"></p></small>
+            </div>
+            <div class="form-group">
+              <label >Harga CPO</label>
+              <input type="text" class="form-control" placeholder="Harga CPO"  />
+              <small class="form-text text-muted" ><p class="warning"></p></small>
+            </div>
+          </div>
+          <div class="modal-footer no-border">
+            <div class="container no-padding">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="#" class="btn btn-lg btn-block btn-secondary-line" data-dismiss="modal" >Kembali</a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#" class="btn btn-lg btn-block btn-secondary-gradient" data-dismiss="modal">Simpan</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- jQuery -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <!-- jQuery UI 1.11.4 -->

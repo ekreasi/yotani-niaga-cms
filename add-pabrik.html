@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yotani Niaga | Add Pabrik</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">  
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/libs/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/icons/fontawesome/styles.min.css">
+  <link rel="stylesheet" href="assets/css/basic.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="assets/libs/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="assets/libs/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="assets/libs/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="assets/css/adminlte.min.css">
+  <link rel="stylesheet" href="assets/libs/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="assets/libs/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="assets/libs/summernote/summernote-bs4.css">
+
+  <!-- DataTables -->
+  <link rel="stylesheet" href="assets/libs/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="assets/libs/datatables-responsive/css/responsive.bootstrap4.min.css">
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+  <div class="wrapper">
+  
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light  navbar-background-primary">
+      <!-- Left navbar links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+  
+      <div class="btn-group btn-language">
+        <a  class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="assets/img/img-flag-id.png">
+          <span class="margin-tb5">
+            ID
+          <span class="glyphicon glyphicon-chevron-down"></span>
+          </span>
+        </a>
+        
+        <ul class="dropdown-menu">
+          <li>
+            <a href="#" title="English"> <img src="assets/img/img-flag-id.png">EN</a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <!-- Notifications Dropdown Menu -->
+        <li class="nav-item dropdown notification-wrap">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="far fa-bell"></i>
+            <span class="badge badge-warning navbar-badge"> </span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <span class="dropdown-item dropdown-header">15 Notifications</span>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-envelope mr-2"></i> 4 new messages
+              <span class="float-right text-muted text-sm">3 mins</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-users mr-2"></i> 8 friend requests
+              <span class="float-right text-muted text-sm">12 hours</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-file mr-2"></i> 3 new reports
+              <span class="float-right text-muted text-sm">2 days</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown user-setting">
+            <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="img-fuid" src="assets/img/img-avatar.png">
+              <span>
+                <h6>Vivi M </h6>
+                <p>Administrator</p>
+            </span>
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Setting</a>
+              <a class="dropdown-item" href="index.html">Log Out</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- /.navbar -->
+  
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-primary sidebar-secondary">
+  
+  
+      <!-- Sidebar -->
+      <div class="sidebar no-padding sidebar-yt">
+        <!-- Sidebar Menu -->
+        <div class="logo-dashboard-wrap">
+          <a href="#" >
+            <div class="logo-dashboard"></div>
+          </a>
+        </div>
+        <nav >
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item">
+              <a href="dashboard.html" class="nav-link link">
+                <i class="fas fa-tachometer-alt nav-icon"></i>
+                <p>
+                  Dashboard
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="pabrik.html" class="nav-link active">
+                <i class="fas fa-industry nav-icon"></i>
+                <p>
+                  Pabrik
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="harga.html" class="nav-link link">
+                <i class="fas fa-tags nav-icon"></i>
+                <p>
+                  Harga CPO
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+      </div>
+      <!-- /.sidebar -->
+    </aside>
+  
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1 class="m-0 text-dark">Tambah Data Pabrik</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+             
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </div>
+      <div class="clearfix"></div>
+      <!-- /.content-header -->
+  
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="card ">
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-4 no-padding-left padding-r40">
+                    <h6 class="color-primary">Profil Perusahaan</h6>
+                    <div class="form-group">
+                      <label >Nama Perusahaan</label>
+                      <input type="text" class="form-control" placeholder="Nama Perusahaan"  />
+                      <small class="form-text text-muted" ><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Alamat <span class="color-red">*</span></label>
+                      <textarea class="form-control" rows="3">Alamat</textarea>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <label>RT<span class="color-red">*</span></label>
+                          <input type="text" class="form-control" placeholder="RT" />
+                          <small class="form-text text-muted"><p class="warning"></p></small>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <label>RW<span class="color-red">*</span></label>
+                          <input type="text" class="form-control" placeholder="RW" />
+                          <small class="form-text text-muted"><p class="warning"></p></small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Provinsi <span class="color-red">*</span></label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Pilih Provinsi</option>
+                        <option>Aceh</option>
+                      </select>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Kota/Kabupaten <span class="color-red">*</span></label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Pilih Kota/Kabupaten</option>
+                        <option>Aceh Timur</option>
+                      </select>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Kecamatan <span class="color-red">*</span></label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect"> 
+                        <option selected>Pilih Kecamatan</option>
+                        <option>Perurelak Timur</option>
+                      </select>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Kelurahan/Desa <span class="color-red">*</span></label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Pilih Kelurahan/Desa</option>
+                        <option>Seureubok Teungoh</option>
+                      </select>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Kode Pos <span class="color-red">*</span></label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Pilih Kode Pos</option>
+                        <option>24452</option>
+                      </select>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Jenis Perkebunan <span class="color-red">*</span></label>
+                      <input type="text" class="form-control" placeholder="Jenis Perkebunan" value="" />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Kapasitas <span class="color-red">*</span></label>
+                      <input type="text" class="form-control" placeholder="Kapasitas" />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Jumlah Karyawan <span class="color-red">*</span></label>
+                      <input type="text" class="form-control" placeholder="Jumlah Karyawan"/>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                  </div>
+                  <div class="col-md-4 padding-r40">
+                    <h6 class="color-primary">Dokumen</h6>
+                    <div class="form-group">
+                      <label>NPWP</label>
+                      <input type="text" class="form-control" placeholder="No. NPWP"  />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>No. Izin Berusaha</label>
+                      <input type="text" class="form-control" placeholder="No. Izin Berusaha"  />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>SIUP Pengolahan</label>
+                      <div class="btn-upload-custom">
+                        <div class="file btn btn-secondary-line radius-50">
+                          Upload Lampiran
+                          <input type="file" name="file"/>
+                        </div>
+                        <div class="info-wrap">
+                          <i class="fa fa-info"></i>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Akte Perusahaan</label>
+                      <div class="btn-upload-custom">
+                        <div class="file btn btn-secondary-line radius-50">
+                          Upload Lampiran
+                          <input type="file" name="file"/>
+                        </div>
+                        <div class="info-wrap">
+                          <i class="fa fa-info"></i>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Website</label>
+                      <input type="text" class="form-control" placeholder="website" value="" />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Nama Akun Bank</label>
+                      <input type="text" class="form-control" placeholder="Nama Akun bank" value="" />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>No. Rekening</label>
+                      <input type="text" class="form-control" placeholder="No. Rekening"  />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                  </div>
+                  <div class="col-md-4 padding-r40">
+                    <h6 class="color-primary">PIC</h6>
+                    <div class="form-group">
+                      <label>Nama PIC</label>
+                      <input type="text" class="form-control" placeholder="Nama PIC"  />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>No. Telpon</label>
+                      <input type="text" class="form-control" placeholder="No. Telpon" />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="text" class="form-control" placeholder="Email"  />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                    <div class="form-group">
+                      <label>Username</label>
+                      <input type="text" class="form-control" placeholder="Username"  />
+                      <small class="form-text text-muted"><p class="warning"></p></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8"></div>
+                  <div class="col-md-4">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="pabrik.html" class="btn btn-lg btn-block btn-secondary-line">Kembali</a>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="#" class="btn btn-lg btn-block btn-secondary-gradient">Simpan</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <div class="clearfix"></div>
+          <!-- /.card -->
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <div class="clearfix"></div>
+      <!-- /.content -->
+    </div>
+    
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+  </div>
+  <!-- ./wrapper -->
+  
+    <!-- jQuery -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="assets/libs/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/adminlte.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+  </html>
