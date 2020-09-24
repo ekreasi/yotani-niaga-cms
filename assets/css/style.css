@@ -229,3 +229,6 @@ body .sidebar-yt ul li .active {
 .background-primary-gradient button span {
 	color:#FFF !important
 }
+.dataTables_scroll {
+	margin-bottom:20px !important
+}
