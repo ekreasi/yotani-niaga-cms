@@ -1,4 +1,12 @@
  /* General */
+ img {
+    image-rendering: -moz-crisp-edges !important;         /* Firefox */
+    image-rendering:   -o-crisp-edges !important;         /* Opera */
+    image-rendering: -webkit-optimize-contrast !important;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges !important;
+    -ms-interpolation-mode: nearest-neighbor !important;  /* IE (non-standard property) */
+    
+ }
     html, body {
         height: 100%;
     }
