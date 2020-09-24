@@ -232,3 +232,9 @@ body .sidebar-yt ul li .active {
 .dataTables_scroll {
 	margin-bottom:20px !important
 }
+.notif-wrap a i {
+	color:#212529 !important;
+} 
+.notif-wrap a span {
+	margin-top: 5px;
+}
