@@ -202,6 +202,7 @@
         background-color: #FFAB40 !important;
         border-color: #FFAB40 !important;
         color:#fff !important;
+        font-weight:300 !important;
     }
     .btn-secondary-gradient {
         background: linear-gradient(135deg, #FD763D 0%, #E35317 100%) !important;

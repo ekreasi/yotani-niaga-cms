@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/libs/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/icons/fontawesome/styles.min.css">
+  <link rel="stylesheet" href="assets/css/icons/yotani/style.css">
   <link rel="stylesheet" href="assets/css/basic.css">
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -108,67 +109,76 @@
         <nav >
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
-              <a href="dashboard.html" class="nav-link link">
-                <i class="fas fa-tachometer-alt nav-icon"></i>
+              <a href="dashboard.html" class="nav-link link ">
+                <i class="yotani-ico-dashboard nav-icon"></i>
                 <p>
                   Dashboard
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
               <a href="pabrik.html" class="nav-link link">
-                <i class="fas fa-industry nav-icon"></i>
+                
+                <i class="yotani-ico-pabrik nav-icon"></i>
                 <p>
                   Pabrik
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
-              <a href="harga.html" class="nav-link active ">
-                <i class="fas fa-tags nav-icon"></i>
+              <a href="harga.html" class="nav-link active">
+                <i class="yotani-ico-cpo nav-icon"></i>
                 <p>
                   Harga CPO
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
               <a href="kebun.html" class="nav-link link">
-                <i class="fas fa-tree nav-icon"></i>
+                <i class="yotani-ico-kebun nav-icon"></i>
                 <p>
                   Kebun
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
               <a href="kelompok-tani.html" class="nav-link link">
-                <i class="fas fa-group nav-icon"></i>
+                <i class="yotani-ico-tani nav-icon"></i>
                 <p>
                   Kelompok Tani
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
-              <a href="list-fintech.html" class="nav-link link">
-                <i class="fas fa-briefcase nav-icon"></i>
+              <a href="daftar-fintech.html" class="nav-link link">
+                <i class="yotani-ico-fintech nav-icon"></i>
                 <p>
                   Daftar Fintech
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
               <a href="approval-pembayaran.html" class="nav-link link">
-                <i class="fas fa-check-square nav-icon"></i>
+                <i class="yotani-ico-payment nav-icon"></i>
                 <p>
                   Approval Pembayaran
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
             <li class="nav-item">
               <a href="setup-kontrak.html" class="nav-link link">
-                <i class="fas fa-file-text nav-icon"></i>
+                <i class="yotani-ico-kontrak  nav-icon"></i>
                 <p>
                   Setup Kontrak
                 </p>
+                <div class="clearfix"></div>
               </a>
             </li>
           </ul>
@@ -494,7 +504,14 @@
         <script>
         $(function () {
           $("#harga").DataTable({
-            "scrollX": true
+            "scrollX": true,
+            "searching": false,
+            "language": {
+                "paginate": {
+                  "previous": "Sebelumnya",
+                  "next": "Berikutnya",
+                }
+              }
            
           });
         });
