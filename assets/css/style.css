@@ -196,13 +196,14 @@ body .sidebar-yt ul li .active {
     margin-top: 4px !important;
 }
 .notification-wrap a span.navbar-badge {
-    font-size: .6rem;
+	font-size: .6rem;
     font-weight: 300;
-    padding: 7px 7px !important;
+    padding: 5px 7px !important;
     position: absolute;
-    right: 9px !important;
-    top: 9px !important;
+    right: 5px !important;
+    top: 7px !important;
     border-radius: 50%;
+    color: #ffff;
 }
 .content-wrapper {
 	padding-bottom:40px;;
@@ -280,4 +281,31 @@ table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td
 	color:#4D4D4D !important;
 	font-weight:300;
 	font-size:14px !important;
+}
+body .card {
+    box-shadow: 0px 5px 6px rgba(0,0,0,.05), 10px 0px 20px rgba(0,0,0,.09) !important;
+  
+}
+.table-bordered td i {
+	font-size:18px;
+	margin-right:10px
+}
+.table td {
+	padding: 10px !important;
+}
+div.dataTables_wrapper div.dataTables_length label, div.dataTables_wrapper div.dataTables_info {
+	font-weight: 400 !important;
+	color:#4D4D4D !important
+}
+.table-custom tfoot tr td  {
+	border:none !important;
+	font-weight:bold;
+}
+/* body table .table-custom {
+	border:none !important
+} */
+
+.table-custom thead tr th, .table-custom tbody tr td{
+	border: 1px solid #dee2e6 !important;
+
 }

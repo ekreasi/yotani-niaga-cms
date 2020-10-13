@@ -61,7 +61,7 @@
         <li class="nav-item dropdown notification-wrap">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-bell"></i>
-            <span class="badge badge-warning navbar-badge"> </span>
+            <span class="badge badge-warning navbar-badge"> 2</span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right notif-wrap">
             <span class="dropdown-item dropdown-header">15 Notifications</span>
@@ -242,229 +242,169 @@
             </div>
             <!-- /.card-header -->
             <div class="card-body">
-              <table id="pabrik" class="table table-bordered table-striped nowrap"  style="width:100%" >
+              <table id="pabrik" class="table table-striped nowrap table-custom"  style="width:100%" >
                 <thead>
                 <tr>
                   <th>No</th>
-                  <th>Nama Perusahaan</th>
-                  <th>Alamat</th>
-                  <th>Jenis Perkebunan</th>
-                  <th>Kapasitas</th>
-                  <th>NPWP</th>
-                  <th>NIB</th>
-                  <th>Website</th>
-                  <th>Jumlah Karyawan</th>
-                  <th>Nama PIC</th>
-                  <th>No HP</th>
-                  <th>Email</th>
-                  <th>Username</th>
+                  <th>Tanggal Pengiriman</th>
+                  <th>No. Penerimaan Barang</th>
+                  <th>Nama Supplier </th>
+                  <th>Plat Nomor</th>
+                  <th>Tonase (Netto)</th>
+                  <th>Total</th>
+                  <th>Status</th>
                   <th>Aksi</th>
+                  <th><input type="checkbox" class="check" id="checkAll"></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-primary"><i class="fa fa-check-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-primary"><i class="fa fa-check-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-red"><i class="fa fa-times-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-primary"><i class="fa fa-check-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>5</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-red"><i class="fa fa-times-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>6</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-primary"><i class="fa fa-check-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-red"><i class="fa fa-times-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-red"><i class="fa fa-times-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>9</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-red"><i class="fa fa-times-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
                 <tr>
                   <td>10</td>
-                  <td>PT. Padang Palma</td>
-                  <td>Jl. Binturung...</td>
-                  <td>Kelapa Sawit</td>
-                  <td>5 Ton</td>
-                  <td>09357692..</td>
-                  <td>39593..</td>
-                  <td>www.pdpal..</td>
-                  <td>400.000</td>
-                  <td>Kartika Wati</td>
-
-                  <td>082322..</td>
-                  <td>kartika@m..</td>
-                  <td>082322..</td>
+                  <td>07/09/2020  08:00</td>
+                  <td>IX/NPB/20200907/0800</td>
+                  <td>Sarman</td>
+                  <td>BL6045LAH</td>
+                  <td>19.100 Kg</td>
+                  <td>Rp 34.991.200</td>
+                  <td class="color-red"><i class="fa fa-times-circle"></i></td>
                   <td>
-                    <a href="edit-pabrik.html" class="color-third" ><i class="fa fa-pencil"></i></a>
-                    <a href="#" class="color-third"><i class="fa fa-trash"></i></a>
+                    <a href="#" class="color-third" ><i class="fa fa-eye"></i></a>
                   </td>
+                  <td><input type="checkbox" class="check"></td>
                 </tr>
-                
                 </tbody>
-                
+                <tfoot style="border-color:#fff">
+                  <tr>
+                    <td colspan="5">Total Tonase</td>
+                    <td colspan="5">66.800 Kg</td>
+                  </tr>
+                </tfoot>
               </table>
             </div>
             <!-- /.card-body -->
@@ -474,15 +414,46 @@
       </section>
       <!-- /.content -->
     </div>
-    
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-      <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
+  
   </div>
   <!-- ./wrapper -->
-  
+  <!-- Modal View Approval -->
+  <div class="modal fade" id="modal-view-tani" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-400 modal-dialog-centered " role="document">
+      <div class="modal-content">
+        <div class="modal-header no-border background-primary-gradient">
+          <h5 class="modal-title w-100 color-white" id="exampleModalLabel">Detail Kelompok Petani</h5>
+          <button type="button" class="close color-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="icon ion-android-close"></i></span>
+          </button>
+        </div>
+        <div class="modal-body  modal-kebun ">
+          <div class="form-group">
+            <label>Kartika Wati</label>
+            <p>081234567898</p>
+          </div>
+          <div class="form-group">
+            <label>Diana Santri</label>
+            <p>081234567898</p>
+          </div>
+          <div class="form-group">
+            <label>Jaro Petang</label>
+            <p>081234567898</p>
+          </div>
+          
+        </div>
+        <div class="modal-footer no-border">
+          <div class="container no-padding">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <a href="#" class="btn btn-md btn-block btn-secondary-line" data-dismiss="modal" >Kembali</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- jQuery -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <!-- jQuery UI 1.11.4 -->
@@ -504,9 +475,22 @@
     <script>
     $(function () {
       $("#pabrik").DataTable({
-        "scrollX": true
+        "scrollX": true,
+        "searching": false,
+        "language": {
+            "paginate": {
+              "previous": "Sebelumnya",
+              "next": "Berikutnya",
+            },
+            "lengthMenu":     "Tampilkan _MENU_ Data",
+            "info":           "Menampilkan _START_ sampai _END_ dari _TOTAL_ data",
+            "infoEmpty":      "Menampilkan 0 sampai 0 dari 0 data"
+          }
        
       });
+    });
+    $("#checkAll").click(function () {
+      $(".check").prop('checked', $(this).prop('checked'));
     });
   </script>
   </body>
