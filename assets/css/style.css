@@ -309,3 +309,17 @@ div.dataTables_wrapper div.dataTables_length label, div.dataTables_wrapper div.d
 	border: 1px solid #dee2e6 !important;
 
 }
+.date .input-group-append .input-group-text{
+	border-top: 1px solid #ced4da !important;
+	border-bottom: 1px solid #ced4da !important;
+	border-right: 1px solid #ced4da !important;
+	border-left:none !important;
+	background-color: #fff !important;
+}
+.date input.form-control {
+	border-right:none !important;
+}
+.bootstrap-datetimepicker-widget {
+	width:300px !important;
+	display:block;
+}
